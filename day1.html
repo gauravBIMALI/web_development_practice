@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Day-1</title>
+     <style>
+          textarea {
+               resize: none;
+          }
+     </style>
+</head>
+
+<body>
+     <!-- in this file we are practicing all the form attributes -->
+     <div class="form_practice">
+          <form action="">
+               <label for="name">Username:</label>
+               <input type="text" name="name" id="namne">
+               <br>
+               <label for="pw">Username:</label>
+               <input type="text" name="pw" id="pw">
+               <br>
+               <label for="choose">Select country:</label>
+               <select name="choose" size="2">
+                    <option value="a"> nepal</option>
+                    <option value="b">india</option>
+                    <option value="c" selected>Pakistan</option>
+               </select>
+               <br>
+               <label for="details">Details</label>
+               <textarea name="details" cols="20" rows="10"></textarea>
+               <br>
+               <button type="submit" onclick="alert('hw are uis')">Submit </button>
+               <br>
+               <button type="button" onclick="alert('Hello world')">Button</button><br>
+               <fieldset>
+                    <legend>School address</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name">
+                    <br>
+                    <label for="class">Class:</label><br>
+                    <input type="text" name="class"> <br>
+                    <label for="roll">Roll:</label><br>
+                    <input type="number" name="roll"> <br><br>
+                    <button type="submit" onclick="alert('legend')">Submit</button>
+               </fieldset> <br>
+
+               <input list="browsers" name="browser">
+               <datalist id="browsers">
+                 <option value="Edge">
+                 <option value="Firefox">
+                 <option value="Chrome">
+                 <option value="Opera">
+                 <option value="Safari">
+               </datalist>
+               <input type="submit" onclick="alert('successful')"> <br>
+               <input type="range" value="50">
+
+               <!-- outgrout -->
+               <label for="cars">Choose a car:</label>
+<select  name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+          </form>
+     </div>
+</body>
+
+</html>
